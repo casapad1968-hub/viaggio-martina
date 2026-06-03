@@ -1,0 +1,17 @@
+{
+  "name": "Viaggio Martina 2026",
+  "short_name": "Viaggio Martina",
+  "description": "Thailandia, Giappone e Corea: 20 giorni di avventura orientale. 18 Luglio - 6 Agosto 2026.",
+  "start_url": "/viaggio-martina/",
+  "scope": "/viaggio-martina/",
+  "display": "standalone",
+  "background_color": "#FAFAF5",
+  "theme_color": "#8B0000",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
