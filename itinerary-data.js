@@ -1,4 +1,4 @@
-// ==================== ITINERARIO VIAGGIO MARTINA ====================
+// ==================== VIAGGIO MARTINA E RICCARDO ====================
 // 18 Luglio - 6 Agosto 2026: Thailandia 🇹🇭 • Giappone 🇯🇵 • Corea 🇰🇷
 
 const itineraryData = [
