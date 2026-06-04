@@ -209,9 +209,11 @@ function renderDayGrid() {
     bg.className = 'day-tile-bg';
     var photo = mangaPhotos[d.day];
     if (photo) {
-      bg.style.backgroundImage = 'url(' + photo + ')';
-      bg.style.backgroundSize = 'cover';
-      bg.style.backgroundPosition = 'center';
+      var img = document.createElement('img');
+      img.src = photo;
+      img.loading = 'lazy';
+      img.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center top;';
+      tile.insertBefore(img, tile.firstChild);
     } else {
       bg.style.background = 'linear-gradient(135deg, ' + color + 'CC 0%, ' + color + '99 100%), repeating-linear-gradient(45deg, transparent 0, transparent 18px, rgba(201,168,76,0.08) 18px, rgba(201,168,76,0.08) 19px)';
     }
