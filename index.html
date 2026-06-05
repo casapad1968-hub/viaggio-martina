@@ -184,6 +184,7 @@
     .stats-item .stats-num.s-gold{color:#C9A84C}
     .stats-item .stats-num.s-coral{color:#FF6B6B}
     .stats-item .stats-num.s-dark{color:#2C2C2C}
+    .dot-marker{color:#C9A84C;font-weight:700;margin-left:8px}
 
     /* ==== PHASE PILLS ==== */
     .phase-pills{
@@ -581,10 +582,6 @@
           <div class="flight-route">ICN ➔ MXP</div>
           <div class="flight-detail">Partenza Seoul Incheon 13:45 • Arrivo Milano Malpensa 20:00 • Volo intercontinentale</div>
         </div>
-        <div style="display:flex;justify-content:space-between;padding:10px 0 0;margin-top:10px;border-top:1px solid rgba(201,168,76,0.3);font-weight:700">
-          <span style="color:#C9A84C">TOTALE VOLI (2 viaggiatori)</span>
-          <span style="color:#C9A84C">€2.732,34</span>
-        </div>
       </div>
 
       <!-- Hotels summary -->
@@ -593,40 +590,37 @@
         <div style="font-size:11px;line-height:1.7">
           <div style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid rgba(201,168,76,0.15)">
             <span><strong style="color:#8B0000">Bangkok</strong> (4 notti) — Mandarin Hotel Centre Point</span>
-            <span style="color:#888">€244,22</span>
+            <span class="dot-marker">·</span>
           </div>
           <div style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid rgba(201,168,76,0.15)">
             <span><strong style="color:#8B0000">Okinawa</strong> (3 notti) — Hotel Cocktail Stay Naha</span>
-            <span style="color:#888">€265,67</span>
+            <span class="dot-marker">·</span>
           </div>
           <div style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid rgba(201,168,76,0.15)">
             <span><strong style="color:#8B0000">Takamatsu</strong> (1 notte) — Hotel AreaOne Takamatsu</span>
-            <span style="color:#888">€39,38</span>
+            <span class="dot-marker">·</span>
           </div>
           <div style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid rgba(201,168,76,0.15)">
             <span><strong style="color:#8B0000">Naoshima</strong> (1 notte) — Vacation House YOKOMBO</span>
-            <span style="color:#888">€189,86</span>
+            <span class="dot-marker">·</span>
           </div>
           <div style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid rgba(201,168,76,0.15)">
             <span><strong style="color:#8B0000">Kobe</strong> (2 notti) — Kobe Meriken Park Oriental</span>
-            <span style="color:#888">€192,95</span>
+            <span class="dot-marker">·</span>
           </div>
           <div style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid rgba(201,168,76,0.15)">
             <span><strong style="color:#8B0000">Osaka</strong> (1 notte) — KOKO Hotel Namba</span>
-            <span style="color:#888">€83,37</span>
+            <span class="dot-marker">·</span>
           </div>
           <div style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid rgba(201,168,76,0.15)">
             <span><strong style="color:#8B0000">Osaka Airport</strong> (1 notte) — Hotel Nikko Kansai</span>
-            <span style="color:#888">€116,90</span>
+            <span class="dot-marker">·</span>
           </div>
-          <div style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid rgba(201,168,76,0.15)">
+          <div style="display:flex;justify-content:space-between;padding:6px 0">
             <span><strong style="color:#8B0000">Seul</strong> (4 notti) — HOMES Stay Myeongdong</span>
-            <span style="color:#888">€352,32</span>
+            <span class="dot-marker">·</span>
           </div>
-          <div style="display:flex;justify-content:space-between;padding:8px 0 0;margin-top:6px;border-top:1px solid rgba(201,168,76,0.3);font-weight:700">
-            <span style="color:#8B0000">TOTALE HOTEL</span>
-            <span style="color:#8B0000">€1.484,67</span>
-          </div>
+          <p style="font-size:10px;color:#888;margin-top:10px;font-style:italic">* 8 strutture, 16 notti totali in 3 paesi.</p>
         </div>
       </div>
 
@@ -634,42 +628,14 @@
       <div class="info-card">
         <div class="info-title amber">🚐 Transfer Aeroportuali</div>
         <div style="font-size:11px;line-height:1.7">
-          <div style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid rgba(201,168,76,0.15)">
-            <span><strong style="color:#8B0000">Bangkok Suvarnabhumi (BKK)</strong> • 19/07 ore 17:45<br><span style="color:#888;font-size:10px">Trasferimento aeroporto-hotel all'arrivo a Bangkok</span></span>
-            <span style="color:#888">€16,03</span>
+          <div style="padding:6px 0;border-bottom:1px solid rgba(201,168,76,0.15)">
+            <strong style="color:#8B0000">Bangkok Suvarnabhumi (BKK)</strong> • 19/07 ore 17:45
+            <div style="color:#888;font-size:10px;margin-top:2px">Trasferimento aeroporto-hotel all'arrivo a Bangkok</div>
           </div>
-          <div style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid rgba(201,168,76,0.15)">
-            <span><strong style="color:#8B0000">Bangkok Don Mueang (DMK)</strong> • 23/07 ore 04:50<br><span style="color:#888;font-size:10px">Trasferimento hotel-aeroporto per volo Okinawa</span></span>
-            <span style="color:#888">€16,03</span>
+          <div style="padding:6px 0">
+            <strong style="color:#8B0000">Bangkok Don Mueang (DMK)</strong> • 23/07 ore 04:50
+            <div style="color:#888;font-size:10px;margin-top:2px">Trasferimento hotel-aeroporto per volo Okinawa (partenza mattutina)</div>
           </div>
-          <div style="display:flex;justify-content:space-between;padding:8px 0 0;margin-top:6px;border-top:1px solid rgba(201,168,76,0.3);font-weight:700">
-            <span style="color:#8B0000">TOTALE TRANSFER</span>
-            <span style="color:#8B0000">€32,06</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- Total Summary -->
-      <div class="info-card info-dark" style="background:linear-gradient(135deg,#FFF8E7 0%,#FAFAF5 100%)">
-        <div class="info-title" style="color:#8B0000">💰 Riepilogo Costi Totali</div>
-        <div style="font-size:12px;line-height:1.8">
-          <div style="display:flex;justify-content:space-between;padding:4px 0">
-            <span>✈️ Voli (andata + ritorno + 3 tratte interne)</span>
-            <span style="color:#2C2C2C;font-weight:600">€2.732,34</span>
-          </div>
-          <div style="display:flex;justify-content:space-between;padding:4px 0">
-            <span>🏨 Hotel (8 strutture, 16 notti)</span>
-            <span style="color:#2C2C2C;font-weight:600">€1.484,67</span>
-          </div>
-          <div style="display:flex;justify-content:space-between;padding:4px 0">
-            <span>🚐 Transfer aeroportuali</span>
-            <span style="color:#2C2C2C;font-weight:600">€32,06</span>
-          </div>
-          <div style="display:flex;justify-content:space-between;padding:10px 0 0;margin-top:8px;border-top:2px solid #8B0000;font-weight:700;font-size:14px">
-            <span style="color:#8B0000">💎 TOTALE VIAGGIO</span>
-            <span style="color:#8B0000">€4.249,07</span>
-          </div>
-          <p style="font-size:10px;color:#888;margin-top:8px;font-style:italic">* Importi riferiti a 2 viaggiatori. Esclusi pasti, attrazioni, trasporti locali e shopping.</p>
         </div>
       </div>
 
