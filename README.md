@@ -1,6 +1,13 @@
 # 🌸 Viaggio Martina 2026
 
-Sito web interattivo per il viaggio di Martina in **Thailandia 🇹🇭**, **Giappone 🇯🇵** e **Corea del Sud 🇰🇷** dal **18 Luglio al 6 Agosto 2026**.
+Sito web interattivo per il viaggio di **Martina & Riccardo** in **Thailandia 🇹🇭**, **Giappone 🇯🇵** e **Corea del Sud 🇰🇷** dal **18 Luglio al 6 Agosto 2026**.
+
+**🔗 Sito live:** https://casapad1968-hub.github.io/viaggio-martina/
+
+> 📌 Questo progetto è un **prototipo di riferimento** — è il "modello zero" del servizio **Diario di Viaggio Interattivo**.
+> Dimostra funzionalità, stile e struttura dati che verranno poi parametrizzati per i clienti.
+
+---
 
 ## 🎨 Stile Orientale
 
@@ -8,19 +15,6 @@ Sito web interattivo per il viaggio di Martina in **Thailandia 🇹🇭**, **Gia
 - **Font titoli**: Georgia serif (calligrafico)
 - **Decorazioni**: sakura 🌸, ventagli ⛩️, kanji sottotitoli
 - **Card**: bordi sottili rosso/oro, ombra leggera
-
-## 📁 Struttura
-
-```
-viaggio-martina/
-├── index.html          # Pagina principale (stile orientale)
-├── itinerary-data.js   # 20 giorni: voli, hotel, attività, costi
-├── links-data.js       # Link Google Maps hotel, percorsi, parcheggi
-├── data.js             # Checklist, fasi, stats
-├── app.js              # Logica app (tab, mappa Leaflet, countdown)
-├── manifest.json       # PWA manifest
-└── icon.png            # Icona app
-```
 
 ## ✨ Funzionalità
 
@@ -31,6 +25,7 @@ viaggio-martina/
 - **Checklist** persistente in localStorage
 - **PWA**: aggiungibile alla schermata Home del telefono
 - **100% responsive** (ottimizzato per mobile)
+- **Illustrazioni SVG** uniche per ogni giorno del viaggio (20 illustrazioni manga)
 
 ## 🗺️ Tappe
 
@@ -49,7 +44,30 @@ viaggio-martina/
 
 **Totale hotel: €1.484,67**
 
-## 🚀 Sviluppo
+## 📁 Struttura
+
+```
+viaggio-martina/
+├── index.html          # Pagina principale (stile orientale)
+├── itinerary-data.js   # 20 giorni: voli, hotel, attività, costi
+├── links-data.js       # Link Google Maps hotel, percorsi, parcheggi
+├── data.js             # Checklist, fasi, stats
+├── app.js              # Logica app (tab, mappa Leaflet, countdown, SVG)
+├── manifest.json       # PWA manifest
+├── icon.svg            # Icona app (sakura)
+├── photos/             # Foto del viaggio (placeholder)
+└── README.md
+```
+
+## 🛠️ Stack tecnico
+
+- **Frontend puro**: HTML5 + CSS3 + Vanilla JS (zero framework, zero build)
+- **Mappe**: [Leaflet](https://leafletjs.com/) + OpenStreetMap
+- **PWA**: Web App Manifest
+- **Hosting**: GitHub Pages
+- **Persistenza**: localStorage (per checklist)
+
+## 🚀 Sviluppo locale
 
 ```bash
 cd viaggio-martina
@@ -57,6 +75,10 @@ python3 -m http.server 8000
 # Apri http://localhost:8000
 ```
 
-Sito live: **https://casapad1968-hub.github.io/viaggio-martina/**
+## 📜 Licenza & Privacy
+
+Progetto privato/portfolio. Le foto in `photos/` sono personali e non vengono pubblicate nel sito pubblico — restano come archivio locale per Martina & Riccardo.
+
+---
 
 🌸 Buon viaggio, Martina! 🌸
