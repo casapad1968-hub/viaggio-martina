@@ -511,9 +511,11 @@
         <div class="stats-divider"></div>
         <div class="stats-item"><span class="stats-num s-coral">8</span><span class="stats-lbl">Città</span></div>
         <div class="stats-divider"></div>
-        <div class="stats-item"><span class="stats-num s-dark">4</span><span class="stats-lbl">Voli</span></div>
+        <div class="stats-item"><span class="stats-num s-dark">5</span><span class="stats-lbl">Voli</span></div>
         <div class="stats-divider"></div>
-        <div class="stats-item"><span class="stats-num s-red">7</span><span class="stats-lbl">Hotel</span></div>
+        <div class="stats-item"><span class="stats-num s-red">8</span><span class="stats-lbl">Hotel</span></div>
+        <div class="stats-divider"></div>
+        <div class="stats-item"><span class="stats-num s-gold">2</span><span class="stats-lbl">Transfer</span></div>
       </div>
 
       <div class="home-kanji-title">道中 — Tappe del viaggio</div>
@@ -555,19 +557,33 @@
       <div class="info-card info-dark">
         <div class="info-title white">✈️ Voli del Viaggio</div>
         <div class="flight-row">
-          <div class="flight-label">Andata • 18 Luglio 2026</div>
+          <div class="flight-label">Andata • 18-19 Luglio 2026</div>
           <div class="flight-route">MXP ➔ DEL ➔ BKK</div>
-          <div class="flight-detail">Partenza 21:15 da Malpensa • Scalo Delhi • Arrivo Bangkok</div>
+          <div class="flight-detail">Partenza Milano Malpensa 18/07 ore 21:15 • Scalo Nuova Delhi • Arrivo Bangkok Suvarnabhumi 19/07</div>
         </div>
         <div class="flight-row">
-          <div class="flight-label">Tratte interne • 23 Lug - 2 Ago</div>
-          <div class="flight-route">BKK ➔ OKA ➔ TAK ➔ KIX ➔ ICN</div>
-          <div class="flight-detail">Bangkok→Okinawa 8:25-15:05 • Okinawa→Takamatsu 14:05-16:05 • Osaka→Seul 7:40-9:35</div>
+          <div class="flight-label">Tratta interna 1 • 23 Luglio 2026</div>
+          <div class="flight-route">BKK ➔ OKA</div>
+          <div class="flight-detail">Bangkok Suvarnabhumi → Naha (Okinawa) • 8:25-15:05</div>
+        </div>
+        <div class="flight-row">
+          <div class="flight-label">Tratta interna 2 • 27 Luglio 2026</div>
+          <div class="flight-route">OKA ➔ TAK</div>
+          <div class="flight-detail">Naha (Okinawa) → Takamatsu (Shikoku) • 14:05-16:05</div>
+        </div>
+        <div class="flight-row">
+          <div class="flight-label">Tratta interna 3 • 02 Agosto 2026</div>
+          <div class="flight-route">KIX ➔ ICN</div>
+          <div class="flight-detail">Osaka Kansai → Seoul Incheon • 7:40-9:35</div>
         </div>
         <div class="flight-row" style="border-left-color:#FF6B6B;margin-bottom:0">
           <div class="flight-label">Ritorno • 06 Agosto 2026</div>
           <div class="flight-route">ICN ➔ MXP</div>
-          <div class="flight-detail">Partenza Seul 13:45 • Arrivo Milano 20:00</div>
+          <div class="flight-detail">Partenza Seoul Incheon 13:45 • Arrivo Milano Malpensa 20:00 • Volo intercontinentale</div>
+        </div>
+        <div style="display:flex;justify-content:space-between;padding:10px 0 0;margin-top:10px;border-top:1px solid rgba(201,168,76,0.3);font-weight:700">
+          <span style="color:#C9A84C">TOTALE VOLI (2 viaggiatori)</span>
+          <span style="color:#C9A84C">€2.732,34</span>
         </div>
       </div>
 
@@ -611,6 +627,49 @@
             <span style="color:#8B0000">TOTALE HOTEL</span>
             <span style="color:#8B0000">€1.484,67</span>
           </div>
+        </div>
+      </div>
+
+      <!-- Transfers -->
+      <div class="info-card">
+        <div class="info-title amber">🚐 Transfer Aeroportuali</div>
+        <div style="font-size:11px;line-height:1.7">
+          <div style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid rgba(201,168,76,0.15)">
+            <span><strong style="color:#8B0000">Bangkok Suvarnabhumi (BKK)</strong> • 19/07 ore 17:45<br><span style="color:#888;font-size:10px">Trasferimento aeroporto-hotel all'arrivo a Bangkok</span></span>
+            <span style="color:#888">€16,03</span>
+          </div>
+          <div style="display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid rgba(201,168,76,0.15)">
+            <span><strong style="color:#8B0000">Bangkok Don Mueang (DMK)</strong> • 23/07 ore 04:50<br><span style="color:#888;font-size:10px">Trasferimento hotel-aeroporto per volo Okinawa</span></span>
+            <span style="color:#888">€16,03</span>
+          </div>
+          <div style="display:flex;justify-content:space-between;padding:8px 0 0;margin-top:6px;border-top:1px solid rgba(201,168,76,0.3);font-weight:700">
+            <span style="color:#8B0000">TOTALE TRANSFER</span>
+            <span style="color:#8B0000">€32,06</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Total Summary -->
+      <div class="info-card info-dark" style="background:linear-gradient(135deg,#FFF8E7 0%,#FAFAF5 100%)">
+        <div class="info-title" style="color:#8B0000">💰 Riepilogo Costi Totali</div>
+        <div style="font-size:12px;line-height:1.8">
+          <div style="display:flex;justify-content:space-between;padding:4px 0">
+            <span>✈️ Voli (andata + ritorno + 3 tratte interne)</span>
+            <span style="color:#2C2C2C;font-weight:600">€2.732,34</span>
+          </div>
+          <div style="display:flex;justify-content:space-between;padding:4px 0">
+            <span>🏨 Hotel (8 strutture, 16 notti)</span>
+            <span style="color:#2C2C2C;font-weight:600">€1.484,67</span>
+          </div>
+          <div style="display:flex;justify-content:space-between;padding:4px 0">
+            <span>🚐 Transfer aeroportuali</span>
+            <span style="color:#2C2C2C;font-weight:600">€32,06</span>
+          </div>
+          <div style="display:flex;justify-content:space-between;padding:10px 0 0;margin-top:8px;border-top:2px solid #8B0000;font-weight:700;font-size:14px">
+            <span style="color:#8B0000">💎 TOTALE VIAGGIO</span>
+            <span style="color:#8B0000">€4.249,07</span>
+          </div>
+          <p style="font-size:10px;color:#888;margin-top:8px;font-style:italic">* Importi riferiti a 2 viaggiatori. Esclusi pasti, attrazioni, trasporti locali e shopping.</p>
         </div>
       </div>
 
