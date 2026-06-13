@@ -31,7 +31,7 @@ const checklistData = {
 const phasesData = [
   { id: "phase1", title: "1. Italia → Bangkok", days: "1 - 5", icon: "✈️", km: "0", desc: "Volo Milano-Bangkok e 4 giorni nella capitale thailandese." },
   { id: "phase2", title: "2. Okinawa", days: "6 - 9", icon: "🏝️", km: "0", desc: "L'isola tropicale giapponese: spiagge, castello Shuri e Churaumi." },
-  { id: "phase3", title: "3. Shikoku & Kobe", days: "10 - 13", icon: "🏯", km: "0", desc: "Takamatsu, l'isola d'arte di Naoshima, Kobe e il manzo." },
+  { id: "phase3", title: "3. Takamatsu, Naoshima & Kobe", days: "10 - 13", icon: "🏯", km: "0", desc: "Takamatsu, l'isola d'arte di Naoshima, Kobe e il manzo." },
   { id: "phase4", title: "4. Osaka & Volo", days: "14 - 15", icon: "🍣", km: "0", desc: "Osaka: Dotonbori, castello, teamLab e kushikatsu." },
   { id: "phase5", title: "5. Seoul & Rientro", days: "16 - 20", icon: "🌸", km: "0", desc: "Seul: palazzi, K-food, Hongdae, N Seoul Tower e volo di rientro." }
 ];

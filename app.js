@@ -54,7 +54,7 @@ const phaseColors = {
 const phaseNames = {
   phase1: 'Bangkok',
   phase2: 'Okinawa',
-  phase3: 'Shikoku & Kobe',
+  phase3: 'Takamatsu, Naoshima & Kobe',
   phase4: 'Osaka',
   phase5: 'Seul'
 };
